@@ -5,18 +5,22 @@ import { Plane, Facebook, Twitter, Instagram, Youtube, MapPin, Phone, Mail } fro
 
 const quickLinks = [
   { name: 'About Us', href: '#about' },
+  { name: 'Our Services', href: '#services' },
+  { name: 'Vision & Mission', href: '#vision' },
   { name: 'Our Tours', href: '#tours' },
   { name: 'Destinations', href: '#destinations' },
-  { name: 'Travel Blog', href: '#' },
   { name: 'Contact', href: '#contact' }
 ];
 
 const services = [
-  { name: 'Custom Tours', href: '#' },
-  { name: 'Group Travel', href: '#' },
-  { name: 'Corporate Travel', href: '#' },
-  { name: 'Travel Insurance', href: '#' },
-  { name: 'Visa Assistance', href: '#' }
+  { name: 'Airline Flights', href: '#services' },
+  { name: 'Tour Packages', href: '#services' },
+  { name: 'Exclusive Tours', href: '#services' },
+  { name: 'Hotel Reservations', href: '#services' },
+  { name: 'Visa Processing', href: '#services' },
+  { name: 'Travel Insurance', href: '#services' },
+  { name: 'Car Rentals', href: '#services' },
+  { name: 'Bills Payment', href: '#services' }
 ];
 
 const support = [
@@ -28,7 +32,7 @@ const support = [
 ];
 
 const socialLinks = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
+  { icon: Facebook, href: 'https://www.facebook.com/Jexpresstravelandtours', label: 'Facebook' },
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Instagram, href: '#', label: 'Instagram' },
   { icon: Youtube, href: '#', label: 'YouTube' }
@@ -54,15 +58,15 @@ export function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
-                <span>123 Travel Street, Adventure City, AC 12345</span>
+                <span>2nd floor AF Lopez bldg. Iznart street, Iloilo City, 5000, Philippines</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>Globe: 0995-4158-450 | Smart: 0969-6463-957</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@j-express.com</span>
+                <span>jexpresstravelandtours@gmail.com</span>
               </div>
             </div>
 

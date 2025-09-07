@@ -77,13 +77,13 @@ export function About() {
           ))}
         </div>
 
-        <div className="bg-secondary/20 rounded-lg p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
+        <div className="bg-primary/5 rounded-lg p-8 text-center">
+          <h3 className="text-2xl font-bold mb-4">Why Choose J-Express?</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            To provide fast, reliable, and extraordinary travel experiences while promoting sustainable tourism 
-            that benefits local communities. We strive to deliver express service and authentic, immersive experiences 
-            that go beyond typical tourist attractions, allowing our travelers to truly connect 
-            with the places and people they encounter with maximum efficiency.
+            With over a decade of experience and thousands of satisfied travelers, we've built our reputation 
+            on delivering fast, reliable, and extraordinary travel experiences. Our express service approach 
+            ensures quick responses, efficient booking processes, and seamless travel arrangements that save 
+            you time while creating unforgettable memories.
           </p>
         </div>
       </div>

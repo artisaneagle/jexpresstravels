@@ -12,22 +12,22 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Our Office',
-    details: ['123 Travel Street', 'Adventure City, AC 12345', 'United States']
+    details: ['2nd floor AF Lopez bldg.', 'Iznart street', 'Iloilo City, 5000, Philippines']
   },
   {
     icon: Phone,
     title: 'Call Us',
-    details: ['+1 (555) 123-4567', '+1 (555) 987-6543', 'Toll-free: 1-800-J-EXPRESS']
+    details: ['Globe: 0995-4158-450', 'Smart: 0969-6463-957', 'Available 24/7 for urgent inquiries']
   },
   {
     icon: Mail,
     title: 'Email Us',
-    details: ['info@j-express.com', 'bookings@j-express.com', 'support@j-express.com']
+    details: ['jexpresstravelandtours@gmail.com', 'For bookings and inquiries', 'Response within 24 hours']
   },
   {
     icon: Clock,
     title: 'Business Hours',
-    details: ['Monday - Friday: 8:00 AM - 9:00 PM', 'Saturday: 9:00 AM - 7:00 PM', 'Sunday: 10:00 AM - 6:00 PM']
+    details: ['Monday - Friday: 8:00 AM - 6:00 PM', 'Saturday: 9:00 AM - 5:00 PM', 'Sunday: By appointment only']
   }
 ];
 

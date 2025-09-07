@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { Services } from './components/Services';
 import { FeaturedDestinations } from './components/FeaturedDestinations';
 import { TourPackages } from './components/TourPackages';
 import { BookingForm } from './components/BookingForm';
+import { VisionMission } from './components/VisionMission';
 import { Testimonials } from './components/Testimonials';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
@@ -33,11 +35,17 @@ export default function App() {
         {/* Hero Section */}
         <Hero />
 
+        {/* Services Section */}
+        <Services />
+
         {/* Featured Destinations */}
         <FeaturedDestinations />
 
         {/* Tour Packages */}
         <TourPackages />
+
+        {/* Vision & Mission */}
+        <VisionMission />
 
         {/* Testimonials */}
         <Testimonials />
